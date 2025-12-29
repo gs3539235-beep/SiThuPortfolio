@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR-->
+    <nav>
+      <div class="left">
+       <a href="/">Si Thu Aung</a>
+      </div>
+
+      <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:john@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+
+    <main>
+     <!-- Section 1: Hero -->
+<section class="hero-section">
+  <div class="hero-text">
+    <h2>Hi, I'm Si Thu 👋</h2>
+    <p>
+      I’m a passionate web developer who enjoys building clean, responsive, and
+      user-friendly websites. I’m constantly learning new technologies and
+      improving my skills through real projects.
+    </p>
+
+    <div class="hero-links">
+      <a href="#skills">
+        <i class="fa-solid fa-code"></i>
+        <span>Skills</span>
+      </a>
+
+      <a href="#testimony">
+        <i class="fa-solid fa-user"></i>
+        <span>Testimony</span>
+      </a>
+
+      <a href="#Contact">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Contact</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="https://preview.redd.it/wow-all-of-my-closest-friends-and-this-important-scientist-v0-xf7tuxd6cmpf1.jpeg?width=640&crop=smart&auto=webp&s=aad6769e9c8cf98e49ef9e9ab2e5e2f6a7d2231e" alt="logo image">
+  </div>
+</section>
+
+    
+    <!-- Section 2 Skills -->
+<section id="skills" class="skills-section">
+  <h2>Skills</h2>
+
+  <p class="skills-text">
+    I work with modern web technologies to build clean, responsive, and interactive applications.
+  </p>
+
+  <div class="skills-container">
+    <div class="skill-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIxeNFO8PSlvOvudmrtLIOYdTpN6o77VKolQ&s" alt="HTML">
+      <span>HTML</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://logowik.com/content/uploads/images/css-icon5555.logowik.com.webp" alt="CSS">
+      <span>CSS</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://banner2.cleanpng.com/20180917/skq/kisspng-javascript-logo-product-design-brand-1713939998436.webp" alt="JavaScript">
+      <span>JavaScript</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2kPaSN4r0Mun0RXDmjKHnNcOADfgynCeVw&s" alt="Node.js">
+      <span>Node.js</span>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s" alt="React">
+      <span>React</span>
+    </div>
+  </div>
+</section>
+
+      <!--Section 3 Testimony -->   
+     <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+
+        <div class="group">
+            <div class="person-details">
+                <img src="https://i.pinimg.com/736x/37/bd/0f/37bd0f3c22a55f1804ca12058c24a400.jpg" alt="logowik image">
+            <p>Hein Myo Aung</p>
+            <p>Software Engineer</p>
+        </div>
+
+        <div class="text">
+            "Working with this Software Engineer was a great experience. They demonstrated excellent technical skills, clear communication, and attention to detail. Their ability to turn complex ideas into efficient solutions truly stands out. I highly recommend them for any web development project."
+        </div>
+        </section>
+
+
+      <!-- Section 4: Contact -->
+<section id="Contact" class="contact-section">
+  <h2>Contact Me</h2>
+
+  <p class="contact-intro">
+    Have a project in mind or want to collaborate?  
+    Feel free to send me a message — I’d love to hear from you.
+  </p>
+
+  <div class="contact-card">
+    <form class="contact-form">
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email" required>
+      </div>
+
+      <div class="input-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+      </div>
+
+      <button type="submit">
+        <i class="fa-solid fa-paper-plane"></i>
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+    </main>
+</body>
+</html>
